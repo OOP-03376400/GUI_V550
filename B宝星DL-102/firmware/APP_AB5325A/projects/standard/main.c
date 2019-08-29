@@ -29,7 +29,9 @@ void sys_error_hook(u8 err_no)
 int main(void)
 {
     printf("Hello AB5320\n");
-
+/*
+    Test git
+*/
     bsp_sys_init();
     func_run();
     return 0;
